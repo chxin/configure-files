@@ -1,0 +1,25 @@
+set nocompatible
+filetype off
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
+Plugin 'scrooloose/nerdcommenter'
+Plugin 'tpope/vim-commentary'
+Plugin 'suan/vim-instant-markdown'
+Plugin 'mattn/emmet-vim'
+Plugin 'kien/ctrlp.vim'
+Plugin 'vim-scripts/taglist.vim'
+Plugin 'vim-scripts/Tasklist.vim'
+Plugin 'xuhdev/vim-latex-live-preview'
+Plugin 'Rykka/riv.vim'
+Plugin 'Rykka/InstantRst'
+Plugin 'davidhalter/jedi-vim'
+Plugin 'vim-scripts/snipMate'
+Plugin 'vim-syntastic/syntastic'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-abolish'
+Plugin 'nelstrom/vim-visual-star-search'
+call vundle#end()
+filetype plugin indent on
